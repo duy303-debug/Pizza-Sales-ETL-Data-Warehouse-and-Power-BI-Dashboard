@@ -154,4 +154,8 @@ Dimension (SCD) to identify and process changes.
 ## 14. Truncate
 
 Truncate all Dimension and Fact tables in the Staging area to prepare for future ETL runs.
+# Dashboard
 
+The Power BI dashboard provides interactive visualizations for analyzing pizza sales performance.
+
+[View Power BI Dashboard](dashboard.pbix)
