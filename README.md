@@ -78,7 +78,7 @@ The source pizza sales data is extracted and loaded into the Staging Database.
 
 This step stores the source data in staging tables before data transformation.
 
-<img width="1352" height="742" alt="image" src="https://github.com/user-attachments/assets/854f64e1-2b91-4abe-861c-955d6953b6fb" />
+<img width="1082" height="347" alt="image" src="https://github.com/user-attachments/assets/ad044f49-25df-4527-90fe-f141317f4ed4" />
 
 ---
 
@@ -88,7 +88,7 @@ The staging data is cleansed and transformed before being loaded into the Data W
 
 The transformation process includes data type conversion, handling NULL values, and preparing the data for the Dimension and Fact tables.
 
-<img width="1362" height="740" alt="image" src="https://github.com/user-attachments/assets/169bb594-0099-4c9e-bbb2-b0894a1640a7" />
+<img width="1357" height="502" alt="image" src="https://github.com/user-attachments/assets/5d4dd157-c804-4de7-83b5-843bbeb423aa" />
 
 ---
 
@@ -98,7 +98,7 @@ The transformed data is loaded into the Dimension tables in the Data Warehouse.
 
 The initial load inserts the available Dimension records into the corresponding destination tables.
 
-<img width="1367" height="742" alt="image" src="https://github.com/user-attachments/assets/526768ee-e7b8-4e17-ac34-3a1e1121edb9" />
+<img width="897" height="375" alt="image" src="https://github.com/user-attachments/assets/0446e653-63cf-422c-a80d-50d6861d7777" />
 
 ---
 
@@ -108,7 +108,7 @@ After the Dimension tables have been loaded, the pizza sales transactions are lo
 
 The Fact table stores the sales measures and references the corresponding Dimension tables.
 
-<img width="1366" height="737" alt="image" src="https://github.com/user-attachments/assets/9e180930-c280-4731-8e9a-1491b4a4baa5" />
+<img width="1050" height="546" alt="image" src="https://github.com/user-attachments/assets/251a6548-86da-4224-b983-d1f1570ad9e0" />
 
 ## 9. Truncate
 
@@ -129,7 +129,7 @@ Dimension (SCD) to identify and process changes.
 ## 10. Extract Data into the Staging Area
 
 
-<img width="1330" height="617" alt="image" src="https://github.com/user-attachments/assets/fd288e6c-42bb-4dc5-813b-54aeaa804e8c" />
+<img width="1185" height="432" alt="image" src="https://github.com/user-attachments/assets/47eea3cf-ebd0-4160-a3c0-5825fc13b64e" />
 
 
 ---
