@@ -2,16 +2,18 @@
 
 ## Overview
 
-This project focuses on building an end-to-end ETL pipeline for pizza sales
-data using SQL Server Integration Services (SSIS), SQL Server, and a Data
-Warehouse.
+This project focuses on building an end-to-end ETL pipeline for pizza sales data using SQL Server Integration Services (SSIS), SQL Server, and a Data Warehouse.
 
-The project extracts data from the source system, performs data cleansing
-and transformation, and loads the processed data into a Data Warehouse
-designed using a Star Schema.
+The pipeline extracts, cleanses, transforms, and loads pizza sales data into a Data Warehouse designed using a Star Schema.
 
-The Data Warehouse is then connected to Power BI to provide interactive
-dashboards and business insights for pizza sales analysis.
+The Data Warehouse is then connected to Power BI to analyze sales performance and answer key business questions, such as:
+
+- How does revenue change from month to month?
+- Which pizzas generate the highest revenue?
+- Which pizzas have the highest sales volume?
+- How many orders are placed?
+- Which time period has the highest number of orders?
+- Which pizza categories and sizes are most popular?
 
 ---
 
@@ -149,7 +151,7 @@ Dimension (SCD) to identify and process changes.
 
 ---
 
-## 9. Truncate
+## 14. Truncate
 
 Truncate all Dimension and Fact tables in the Staging area to prepare for future ETL runs.
 
