@@ -37,13 +37,9 @@ The project aims to:
 - Visual Studio
 - SQL Server Integration Services (SSIS)
 - SQL Server Management Studio (SSMS)
-- SQL Server
 - Power BI
 - DAX
-- Data Warehouse
-- Star Schema
-- Lookup Transformation
-- Slowly Changing Dimension (SCD)
+- Slowly Changing Dimension (SCD type 1)
 
 ---
 
