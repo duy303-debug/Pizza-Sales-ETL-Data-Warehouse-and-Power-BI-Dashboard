@@ -55,6 +55,10 @@ The schema consists of three dimension tables—Product, Date, and Time—and a 
 
 <img width="1587" height="775" alt="image" src="https://github.com/user-attachments/assets/fcccccf3-ed0b-41a8-b4c0-e29908f92776" />
 
+The SQL script used to create the Data Warehouse structure:
+
+[Data Warehouse SQL Script](DataWarehouse_createDatabase.sql)
+
 ## ETL Architecture
 
 The ETL pipeline follows an end-to-end process from the source data to the Data Warehouse.
@@ -62,6 +66,7 @@ The ETL pipeline follows an end-to-end process from the source data to the Data 
 The process extracts pizza sales data into the Staging Database, performs data cleansing and transformation, and then loads the processed data into the Data Warehouse.
 
 <img width="402" height="577" alt="image" src="https://github.com/user-attachments/assets/91950ca3-2751-4744-8759-8aa842bb82c6" />
+
 
 ---
 
